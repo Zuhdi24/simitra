@@ -11,16 +11,16 @@ const SigninSlider = ({ title }) => {
   const paginationRef = useRef(null);
   return (
     <div className="auth-banner bg-gradient flex hidden flex-col items-center justify-center py-16 lg:col-6 lg:block">
-      <img
+      {/* <img
         className="absolute left-0 top-0 h-full w-full"
         src="/images/login-banner-bg.png"
         alt=""
-      />
+      /> */}
       <div className="w-full text-center">
-        <h2
+        {/* <h2
           className="h3 text-white"
           dangerouslySetInnerHTML={{ __html: marked.parse(title) }}
-        />
+        /> */}
         <div className="auth-banner-carousel">
           <Swiper
             pagination={{
@@ -41,7 +41,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/images/signup-carousel-img-1.png"
+                src="/images/@simitra/login.svg"
                 alt=""
               />
             </SwiperSlide>
@@ -50,7 +50,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/images/signup-carousel-img-1.png"
+                src="/images/@simitra/login.svg"
                 alt=""
               />
             </SwiperSlide>
@@ -59,7 +59,7 @@ const SigninSlider = ({ title }) => {
                 width="667"
                 height="557"
                 className="mx-auto"
-                src="/images/signup-carousel-img-1.png"
+                src="/images/@simitra/login.svg"
                 alt=""
               />
             </SwiperSlide>
