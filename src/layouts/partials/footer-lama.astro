@@ -5,7 +5,6 @@ import config from "@config/config.json";
 import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
-import { Image } from "@astrojs/image/components";
 const { footer } = menu;
 const { copyright, location, email, phone, footer_description } = config.params;
 ---
@@ -25,6 +24,20 @@ const { copyright, location, email, phone, footer_description } = config.params;
         <Social source={social} className="social-icons mt-4 lg:mt-6" />
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
+        <h6>Quick Links</h6>
+        <ul>
+          {
+            footer.map((item, i) => (
+              <li class={footer.length - 1 === i ? "mb-0" : "mb-4"}>
+                <a class="hover:text-primary hover:underline " href={item.url}>
+                  {item.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div class="col-12 mt-12 md:col-6 lg:col-3">
         <h6>Location & Contact</h6>
         <ul>
           <li class="mb-2">{location}</li>
@@ -33,8 +46,8 @@ const { copyright, location, email, phone, footer_description } = config.params;
               >{email}</a>
           </li>
           <li>
-            <h7> Call Center: 024 7473066
-            <br> SMS Center : 0811 281 5000</h7>
+            <a class="hover:text-primary hover:underline" href={`tel:${phone}`}
+              >{phone}</a>
           </li>
         </ul>
       </div>
