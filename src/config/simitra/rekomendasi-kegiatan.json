@@ -1,0 +1,965 @@
+[
+  {
+    "No": 1,
+    "Asal Pemohon": "Universitas Muhamadiyah Surakarta",
+    "Nama Kegiatan": "Fungsi DPRD dalam Penyusunan APBD Perubahan Tahun 2023",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "31-05-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifikasi"
+  },
+  {
+    "No": 2,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Boyolali",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "28-05-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifikasi"
+  },
+  {
+    "No": 3,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab Banyumas Pola Kerjasama Angkatan ke-88 Periode 4 Juli s.d. 18 September 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "26-05-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 4,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab Banyumas Pola Kerjasama Angkatan ke-87 Periode 20 Juni s.d. 4 September 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "19-05-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 5,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kota Semarang",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "19-05-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": ""
+  },
+  {
+    "No": 6,
+    "Asal Pemohon": "Kabupaten Sukoharjo",
+    "Nama Kegiatan": "Pelatihan Kepemimpinan Administrator Pola Kerjasama Kabupaten Sukoharjo Angkatan Ke-6 Periode 16 Juni s.d 18 Oktober 2023",
+    "Jenis Kegiatan": "Pelatihan Kepemimpinan Administrator",
+    "Tanggal Mengajukan": "17-05-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifikasi"
+  },
+  {
+    "No": 7,
+    "Asal Pemohon": "Universitas Darul Ulum Islamic Centre Sudirman GUPPI",
+    "Nama Kegiatan": "Peningkatan Profesionalisme dan Integritas DPRD dalam Memujudkan Pemerintahan yang Baik dan Bersih",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "13-05-2023",
+    "Tanggal Selesai Proses": "19-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 8,
+    "Asal Pemohon": "Universitas Darul Ulum Islamic Centre Sudirman GUPPI",
+    "Nama Kegiatan": "Strategi Kebijakan Anggaran dalam Penyelenggaraan Pemerintahan Daerah di Kabupaten Temanggung",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "10-05-2023",
+    "Tanggal Selesai Proses": "19-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 9,
+    "Asal Pemohon": "Universitas Semarang",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Kendal",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "06-05-2023",
+    "Tanggal Selesai Proses": "24-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 10,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Tegal",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "04-05-2023",
+    "Tanggal Selesai Proses": "19-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 11,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Rembang",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "02-05-2023",
+    "Tanggal Selesai Proses": "19-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 12,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Banyumas Pola Kerjasama Angkatan ke-85 Periode 8 Juni s.d. 25 Agustus 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "01-05-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 13,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Demak",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "30-04-2023",
+    "Tanggal Selesai Proses": "11-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 14,
+    "Asal Pemohon": "Partai Nasdem",
+    "Nama Kegiatan": "WORKSHOP Fraksi Nasdem DPRD Provinsi, Kabupaten dan Kota Se- Jawa Tengah Dengan Tema “Sinergitas Partai Politik Dalam Pembangunan Daerah”",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "27-04-2023",
+    "Tanggal Selesai Proses": "17-05-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 15,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Banyumas Pola Kerjasama Angkatan ke-84 Periode 24 Mei s.d. 10 Agustus 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "18-04-2023",
+    "Tanggal Selesai Proses": "22-05-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 16,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Boyolali",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "18-04-2023",
+    "Tanggal Selesai Proses": "05-05-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 17,
+    "Asal Pemohon": "Universitas Islam Negeri Profesor Kiai Haji Saifuddin Zuhri Purwokerto",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Purbalingga",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "17-04-2023",
+    "Tanggal Selesai Proses": "05-05-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 18,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Sragen",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "12-04-2023",
+    "Tanggal Selesai Proses": "05-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 19,
+    "Asal Pemohon": "Kabupaten Grobogan",
+    "Nama Kegiatan": "Pelatihan Kepemimpinan Pengawas Angkatan VI",
+    "Jenis Kegiatan": "Pelatihan Kepemimpinan Pengawas",
+    "Tanggal Mengajukan": "10-04-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "ProsesEvaluasi"
+  },
+  {
+    "No": 20,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Banyumas Pola Kerjasama Angkatan ke-78 Periode 12 Mei s.d. 1 Agustus 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "09-04-2023",
+    "Tanggal Selesai Proses": "22-05-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 21,
+    "Asal Pemohon": "PPP",
+    "Nama Kegiatan": "WORKSHOP FRAKSI PARTAI PERSATUAN PEMBANGUNAN DPRD PROVINSI, KABUPATEN DAN KOTA SE-JAWA TENGAH",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "02-04-2023",
+    "Tanggal Selesai Proses": "11-04-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 22,
+    "Asal Pemohon": "Universitas Semarang",
+    "Nama Kegiatan": "Workshop DPRD Kab. Kendal",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "30-03-2023",
+    "Tanggal Selesai Proses": "14-04-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 23,
+    "Asal Pemohon": "Kabupaten Jepara",
+    "Nama Kegiatan": "Pelatihan Teknis Dasar Perencanaan Pembangunan Daerah Kabupaten Jepara Pola Kerjasama Periode 3-19 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Teknis",
+    "Tanggal Mengajukan": "28-03-2023",
+    "Tanggal Selesai Proses": "02-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 24,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Grobogan",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "28-03-2023",
+    "Tanggal Selesai Proses": "28-04-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 25,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Banyumas Pola Kerjasama Angkatan ke-71 Periode 5 Mei s.d. 25 Juli 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "27-03-2023",
+    "Tanggal Selesai Proses": "22-05-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 26,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Sragen",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "22-03-2023",
+    "Tanggal Selesai Proses": "05-04-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 27,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kota Tegal",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "20-03-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 28,
+    "Asal Pemohon": "Universitas Darul Ulum Islamic Centre Sudirman GUPPI",
+    "Nama Kegiatan": "Menyikapi Laporan Keuangan Pemerintah Daerah dan Peran DPRD dalam Perencanaan Pembangunan Daerah serta Persiapan Menghadapi Pemilu 2024",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "15-03-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 29,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Banyumas Pola Kerjasama Angkatan ke-69 Periode 17 April s.d. 17 Juli 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-03-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 30,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Pati",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "13-03-2023",
+    "Tanggal Selesai Proses": "13-04-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 31,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Sukoharjo",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "09-03-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 32,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Boyolali",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "09-03-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 33,
+    "Asal Pemohon": "Universitas Wahid Hasyim",
+    "Nama Kegiatan": "BIMBINGAN TEKNIS DPRD KAB.KUDUS",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "07-03-2023",
+    "Tanggal Selesai Proses": "08-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 34,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kota Salatiga",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "04-03-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 35,
+    "Asal Pemohon": "Kabupaten Sukoharjo",
+    "Nama Kegiatan": "Pelatihan Kepemimpinan Pengawas Pola Kerjasama Kabupaten Sukoharjo Angkatan ke-3 Periode 17 April s.d 30 Agustus 2023",
+    "Jenis Kegiatan": "Pelatihan Kepemimpinan Pengawas",
+    "Tanggal Mengajukan": "03-03-2023",
+    "Tanggal Selesai Proses": "18-04-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 36,
+    "Asal Pemohon": "Universitas STIKUBANK",
+    "Nama Kegiatan": "Penyusunan rekomendasi DPRD terhadap LKPJ Kepala Daerah dan Komunikasi Politik dalam menghadapi Pemilu 2024",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "03-03-2023",
+    "Tanggal Selesai Proses": "15-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 37,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Banyumas Pola Kerjasama Angkatan ke-67 Periode 10 April s.d. 10 Juli 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "02-03-2023",
+    "Tanggal Selesai Proses": "22-05-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 38,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Banyumas Pola Kerjasama Angkatan ke-62 Periode 30 Maret s.d. 30 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "28-02-2023",
+    "Tanggal Selesai Proses": "22-05-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 39,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Pemalang",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "27-02-2023",
+    "Tanggal Selesai Proses": "06-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 40,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Semarang",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "27-02-2023",
+    "Tanggal Selesai Proses": "31-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 41,
+    "Asal Pemohon": "Kabupaten Blora",
+    "Nama Kegiatan": "Pelatihan Teknis Akuntansi Berbasis Akrual Kabupaten Blora Pola Kerjasama Periode 22 s.d. 25 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Teknis",
+    "Tanggal Mengajukan": "27-02-2023",
+    "Tanggal Selesai Proses": "02-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 42,
+    "Asal Pemohon": "Universitas Muhamadiyah Surakarta",
+    "Nama Kegiatan": "Implementasi Peraturan Pemerintah No. 1 Tahun 2023 tentang Hak Keuangan dan Administrasi Pimpinan dan Anggota DPRD",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "27-02-2023",
+    "Tanggal Selesai Proses": "06-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 43,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Sragen",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "21-02-2023",
+    "Tanggal Selesai Proses": "08-03-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 44,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Banyumas Pola Kerjasama Angkatan ke-56 Periode 21 Maret s.d. 22 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "21-02-2023",
+    "Tanggal Selesai Proses": "22-05-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 45,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kota Tegal",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "15-02-2023",
+    "Tanggal Selesai Proses": "17-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 46,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Banyumas Pola Kerjasama Angkatan ke-49 Periode 16 Maret s.d. 15 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "14-02-2023",
+    "Tanggal Selesai Proses": "28-04-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 47,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Pati",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "12-02-2023",
+    "Tanggal Selesai Proses": "16-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 48,
+    "Asal Pemohon": "Universitas Semarang",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Tegal",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "10-02-2023",
+    "Tanggal Selesai Proses": "22-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 49,
+    "Asal Pemohon": "Hanura",
+    "Nama Kegiatan": "Bimbingan TeknisDPRD Kabupaten/Kota Se-Jawa Tengah Dari Partai HANURA",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "08-02-2023",
+    "Tanggal Selesai Proses": "15-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 50,
+    "Asal Pemohon": "Kabupaten Wonogiri",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Wonogiri Pola Kerjasama Angkatan ke-34 Periode 21 Februari s.d. 10 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "07-02-2023",
+    "Tanggal Selesai Proses": "07-03-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 51,
+    "Asal Pemohon": "Kabupaten Wonogiri",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Wonogiri Pola Kerjasama Angkatan ke-42 Periode 27 Februari s.d. 17 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "07-02-2023",
+    "Tanggal Selesai Proses": "16-02-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 52,
+    "Asal Pemohon": "Kabupaten Wonogiri",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Wonogiri Pola Kerjasama Angkatan ke-43 Periode 1 Maret s.d. 24 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "07-02-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 53,
+    "Asal Pemohon": "Kabupaten Wonogiri",
+    "Nama Kegiatan": "Latsar CPNS Gol. III/II Kab. Wonogiri Pola Kerjasama Angkatan ke-47 Periode 13 Maret s.d. 8 Juli 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "07-02-2023",
+    "Tanggal Selesai Proses": "06-03-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 54,
+    "Asal Pemohon": "Universitas Semarang",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Jepara",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "06-02-2023",
+    "Tanggal Selesai Proses": "17-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 55,
+    "Asal Pemohon": "Universitas Semarang",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Banyumas",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "06-02-2023",
+    "Tanggal Selesai Proses": "15-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 56,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Banyumas Pola Kerjasama Angkatan ke-44 Periode 6 Maret s.d. 8 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "03-02-2023",
+    "Tanggal Selesai Proses": "30-03-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 57,
+    "Asal Pemohon": "PKB",
+    "Nama Kegiatan": "Workshop Fraksi PKB DPRD Provinsi, Kabipaten dan Kota Se-Jawa Tengah",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "03-02-2023",
+    "Tanggal Selesai Proses": "10-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 58,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Grobogan",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "02-02-2023",
+    "Tanggal Selesai Proses": "17-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 59,
+    "Asal Pemohon": "Universitas AKI",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Purbalingga",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "02-02-2023",
+    "Tanggal Selesai Proses": "03-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 60,
+    "Asal Pemohon": "Universitas Semarang",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Kendal",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "27-01-2023",
+    "Tanggal Selesai Proses": "10-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 61,
+    "Asal Pemohon": "Universitas Semarang",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Wonosobo",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "27-01-2023",
+    "Tanggal Selesai Proses": "14-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 62,
+    "Asal Pemohon": "Kabupaten Purbalingga",
+    "Nama Kegiatan": "Latsar CPNS Gol. III/II Kab. Purbalingga Pola Kerjasama Angkatan ke-23 Periode 15 Februari s.d. 13 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "27-01-2023",
+    "Tanggal Selesai Proses": "20-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 63,
+    "Asal Pemohon": "Kabupaten Purbalingga",
+    "Nama Kegiatan": "Latsar CPNS Gol. III/II Kab. Purbalingga Pola Kerjasama Angkatan ke-80 Periode 15 Mei s.d. 5 Agustus 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "27-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 64,
+    "Asal Pemohon": "Kabupaten Purbalingga",
+    "Nama Kegiatan": "Latsar CPNS Gol. III/II Kab. Purbalingga Pola Kerjasama Angkatan ke-91 Periode 7 Agustus s.d. 28 Oktober 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "27-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 65,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Pelatihan Teknis Sistem Akuntabilitas Kinerja Instansi Pemerintah (SAKIP) Pola Kerjasama",
+    "Jenis Kegiatan": "Pelatihan Teknis",
+    "Tanggal Mengajukan": "26-01-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 66,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Banyumas Pola Kerjasama Angkatan ke-41 Periode 27 Februari s.d. 29 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "26-01-2023",
+    "Tanggal Selesai Proses": "24-03-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 67,
+    "Asal Pemohon": "Kabupaten Brebes",
+    "Nama Kegiatan": "Pelatihan Teknis Perbendaharaan Kabupaten Brebes Pola Kerjasama Periode 08 s.d. 16 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Teknis",
+    "Tanggal Mengajukan": "25-01-2023",
+    "Tanggal Selesai Proses": "05-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 68,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Rembang",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "25-01-2023",
+    "Tanggal Selesai Proses": "10-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 69,
+    "Asal Pemohon": "Kota Pekalongan",
+    "Nama Kegiatan": "Pelatihan Kepemimpinan Pengawas Kota Pekalongan Pola Kerjasama Angkatan ke IV Periode 2 Mei - 31 Agustus 2023",
+    "Jenis Kegiatan": "Pelatihan Kepemimpinan Pengawas",
+    "Tanggal Mengajukan": "24-01-2023",
+    "Tanggal Selesai Proses": "18-04-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 70,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kota Semarang",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "20-01-2023",
+    "Tanggal Selesai Proses": "10-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 71,
+    "Asal Pemohon": "Golkar",
+    "Nama Kegiatan": "Workshop Fraksi Golkar DPRD Provinsi, Kabupaten dan Kota Se-Jawa Tengah",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "19-01-2023",
+    "Tanggal Selesai Proses": "26-01-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 72,
+    "Asal Pemohon": "Kota Salatiga",
+    "Nama Kegiatan": "Latsar CPNS Gol. III/II Kota Salatiga Pola Kerjasama Angkatan ke-72 Periode 5 Mei s.d. 29 Juli 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "18-01-2023",
+    "Tanggal Selesai Proses": "28-04-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 73,
+    "Asal Pemohon": "Kota Salatiga",
+    "Nama Kegiatan": "Latsar CPNS Gol. III/II Kota Salatiga Pola Kerjasama Angkatan ke-86 Periode 13 Juni s.d. 26 Agustus 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "18-01-2023",
+    "Tanggal Selesai Proses": "28-04-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 74,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Demak",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "18-01-2023",
+    "Tanggal Selesai Proses": "03-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 75,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Pemalang",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "18-01-2023",
+    "Tanggal Selesai Proses": "10-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 76,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Banyumas Pola Kerjasama Angkatan ke-29 Periode 20 Februari s.d. 22 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "18-01-2023",
+    "Tanggal Selesai Proses": "27-03-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 77,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Karanganyar",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "18-01-2023",
+    "Tanggal Selesai Proses": "15-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 78,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Workshop DPRD Kabupaten Boyolali",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "17-01-2023",
+    "Tanggal Selesai Proses": "03-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 79,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kota Semarang Pola Kerjasama Angkatan ke-22 Periode 14 Februari s.d. 9 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "14-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 80,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kota Semarang Pola Kerjasama Angkatan ke-28 Periode 20 Februari s.d. 17 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "16-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 81,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kota Semarang Pola Kerjasama Angkatan ke-40 Periode 27 Februari s.d. 26 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPimpinan"
+  },
+  {
+    "No": 82,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kota Semarang Pola Kerjasama Angkatan ke-48 Periode 14 Maret s.d. 12 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPimpinan"
+  },
+  {
+    "No": 83,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kota Semarang Pola Kerjasama Angkatan ke-55 Periode 17 Maret s.d. 20 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPimpinan"
+  },
+  {
+    "No": 84,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kota Semarang Pola Kerjasama Angkatan ke-61 Periode 29 Maret s.d. 28 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 85,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kota Semarang Pola Kerjasama Angkatan ke-68 Periode 11 April s.d. 10 Juli 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "02-05-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 86,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kota Semarang Pola Kerjasama Angkatan ke-70 Periode 18 April s.d. 18 Juli 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 87,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kota Semarang Pola Kerjasama Angkatan ke-73 Periode 5 Mei s.d. 31 Juli 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 88,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kota Semarang Pola Kerjasama Angkatan ke-79 Periode 12 Mei s.d. 8 Agustus 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "13-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPenyelenggara"
+  },
+  {
+    "No": 89,
+    "Asal Pemohon": "Kota Surakarta",
+    "Nama Kegiatan": "Pelatihan Kepemimpinan Pengawas Angkatan V",
+    "Jenis Kegiatan": "Pelatihan Kepemimpinan Pengawas",
+    "Tanggal Mengajukan": "12-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifSekre"
+  },
+  {
+    "No": 90,
+    "Asal Pemohon": "Universitas STIKUBANK",
+    "Nama Kegiatan": "Implementasi Permendagri Nomor 18 Tahun 2020 Tentang Peraturan Pelaksanaan Peraturan Pemerintah Nomor 13 Tahun 2019 Tentang Laporan dan Evaluasi Penyelenggaraan Pemerintahan",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "11-01-2023",
+    "Tanggal Selesai Proses": "26-01-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 91,
+    "Asal Pemohon": "Kabupaten Jepara",
+    "Nama Kegiatan": "Pelatihan Teknis Dasar Manajemen Bencana Kabupaten Jepara Pola Kerjasama Periode 15 Februari - 3 Maret 2023",
+    "Jenis Kegiatan": "Pelatihan Teknis",
+    "Tanggal Mengajukan": "11-01-2023",
+    "Tanggal Selesai Proses": "14-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 92,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Banyumas Pola Kerjasama Angkatan ke-19 Periode 13 Februari s.d. 11 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "11-01-2023",
+    "Tanggal Selesai Proses": "20-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 93,
+    "Asal Pemohon": "Universitas Wahid Hasyim",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kabupaten Kudus",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "09-01-2023",
+    "Tanggal Selesai Proses": "26-01-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 94,
+    "Asal Pemohon": "Kota Semarang",
+    "Nama Kegiatan": "Pelatihan Kepemimpinan Administrator (PKA) Kota Semarang Pola Kerjasama Angkatan ke-1 Periode 19 Januari s/d 31 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Kepemimpinan Administrator",
+    "Tanggal Mengajukan": "06-01-2023",
+    "Tanggal Selesai Proses": "10-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 95,
+    "Asal Pemohon": "Kabupaten Wonogiri",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Wonogiri Pola Kerjasama Angkatan ke-21 Periode 13 Februari s.d. 27 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "05-01-2023",
+    "Tanggal Selesai Proses": "-",
+    "Status": "MenungguVerifPimpinan"
+  },
+  {
+    "No": 96,
+    "Asal Pemohon": "Universitas 17 Agustus",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kota Pekalongan",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "04-01-2023",
+    "Tanggal Selesai Proses": "26-01-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 97,
+    "Asal Pemohon": "Kabupaten Wonogiri",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Wonogiri Pola Kerjasama Angkatan ke-13 Periode 6 Februari s.d. 13 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "04-01-2023",
+    "Tanggal Selesai Proses": "28-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 98,
+    "Asal Pemohon": "Kabupaten Cilacap",
+    "Nama Kegiatan": "Latsar CPNS Gol. III/II Kab. Cilacap Pola Kerjasama Angkatan ke-50 Periode 16 Maret s.d. 24 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "03-01-2023",
+    "Tanggal Selesai Proses": "18-04-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 99,
+    "Asal Pemohon": "Kabupaten Cilacap",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Cilacap Pola Kerjasama Angkatan ke-46 Periode 13 Maret s.d. 17 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "03-01-2023",
+    "Tanggal Selesai Proses": "18-04-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 100,
+    "Asal Pemohon": "Kabupaten Cilacap",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Cilacap Pola Kerjasama Angkatan ke-45 Periode 9 Maret s.d. 10 Juni 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "02-01-2023",
+    "Tanggal Selesai Proses": "07-03-2023",
+    "Status": "Selesai"
+  },
+  {
+    "No": 101,
+    "Asal Pemohon": "Kabupaten Cilacap",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Cilacap Pola Kerjasama Angkatan ke-39 Periode 24 Februari s.d. 27 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "02-01-2023",
+    "Tanggal Selesai Proses": "26-05-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 102,
+    "Asal Pemohon": "Kabupaten Cilacap",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Cilacap Pola Kerjasama Angkatan ke-20 Periode 13 Februari s.d. 13 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "02-01-2023",
+    "Tanggal Selesai Proses": "14-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 103,
+    "Asal Pemohon": "Kabupaten Banyumas",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Banyumas Pola Kerjasama Angkatan ke-12 Periode 1 Februari s.d. 17 April 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "30-12-2022",
+    "Tanggal Selesai Proses": "01-02-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 104,
+    "Asal Pemohon": "Kabupaten Cilacap",
+    "Nama Kegiatan": "Latsar CPNS Gol. II Kab. Cilacap Pola Kerjasama Angkatan ke-14 Periode 7 Februari s.d. 8 Mei 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "30-12-2022",
+    "Tanggal Selesai Proses": "09-02-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 105,
+    "Asal Pemohon": "Kabupaten Cilacap",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Cilacap Pola Kerjasama Angkatan ke-11 Periode 24 Januari s.d. 15 April 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "22-12-2022",
+    "Tanggal Selesai Proses": "27-01-2023",
+    "Status": "BelumUploadLaporan"
+  },
+  {
+    "No": 106,
+    "Asal Pemohon": "Universitas Semarang",
+    "Nama Kegiatan": "Bimbingan Teknis DPRD Kota Magelang",
+    "Jenis Kegiatan": "Pendalaman Tugas Anggota Dewan (Model Workshop)",
+    "Tanggal Mengajukan": "21-12-2022",
+    "Tanggal Selesai Proses": "03-01-2023",
+    "Status": "SudahUploadLaporan"
+  },
+  {
+    "No": 107,
+    "Asal Pemohon": "Kabupaten Cilacap",
+    "Nama Kegiatan": "Latsar CPNS Gol. III Kab. Cilacap Pola Kerjasama Angkatan ke-10 Periode 18 Januari s.d. 10 April 2023",
+    "Jenis Kegiatan": "Pelatihan Dasar",
+    "Tanggal Mengajukan": "16-12-2022",
+    "Tanggal Selesai Proses": "01-02-2023",
+    "Status": "BelumUploadLaporan"
+  }
+]
