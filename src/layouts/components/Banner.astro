@@ -9,9 +9,17 @@ const { title, button, image, content } = banner;
   <div class="container">
     <div class="row items-center">
       <div class="lg:col-6">
-        <h1 class="banner-title" set:html={markdownify(title)} />
+        <h1
+          class="banner-title"
+          set:html={markdownify(title)}
+          style="color:#7D4F50; "
+        />
 
-        <p class="mt-6" set:html={markdownify(content)} />
+        <p
+          class="mt-6 text-justify"
+          set:html={markdownify(content)}
+          style="color:#7D4F50; "
+        />
 
         {
           button.enable && (
@@ -23,21 +31,21 @@ const { title, button, image, content } = banner;
       </div>
       <div class="lg:col-6">
         <Image
-          class="w-full object-contain"
+          class="w-full max-w-[100%] object-contain"
           alt="banner"
           src={image}
           width={603}
-          height={396}
+          height={596}
         />
       </div>
     </div>
   </div>
 
   <Image
-    class="banner-shape absolute -top-28 right-0 -z-[1] w-full max-w-[30%]"
+    class="banner-shape absolute -top-28 right-0 -z-[1] w-full max-w-[25%]"
     alt="banner"
-    src="/images/banner-shape.png"
-    width={496}
-    height={466}
+    src="/images/btik.png"
+    width={500}
+    height={476}
   />
 </section>

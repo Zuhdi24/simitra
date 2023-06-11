@@ -1,0 +1,36 @@
+---
+import FeatureTab from "@layouts/function-components/FeatureTab";
+import Projects from "@layouts/function-components/Projects";
+import { markdownify } from "@lib/utils/textConverter";
+import FeatureService from "@layouts/components/features/FeatureService.astro";
+
+// const { title, content, management } = Astro.props;
+
+const {
+    referensidokumen: { title, content, management },
+} = Astro.props;
+---
+
+<section class="section features pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="mx-auto text-center lg:col-7">
+                <h2 set:html={markdownify(title)} style="color:#7D4F50; " />
+                <p
+                    class="mt-4"
+                    set:html={markdownify(content)}
+                    style="color:#7D4F50; "
+                />
+            </div>
+        </div>
+        <div
+            class="p mt-14 rounded-xl bg-white p-6 shadow-lg lg:px-12 lg:py-16"
+        >
+            <div class="row">
+                <Projects client:load projects={management.projects} />
+            </div>
+        </div>
+        <!-- <FeatureService feature_service={feature_service} />
+        <FeatureTab client:load feature_tab={feature_tab} /> -->
+    </div>
+</section>
