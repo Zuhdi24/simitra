@@ -1,0 +1,45 @@
+---
+import Base from "@layouts/Base.astro";
+import PageHeader from "@components/PageHeader.astro";
+import TabelDanGrafik from "@layouts/function-components/simitra/TabelDanGrafik";
+import TabelRiwayatPengajuan from "@layouts/function-components/simitra/TabelRiwayatPengajuan";
+import { getEntryBySlug } from "astro:content";
+
+const info_publik = await getEntryBySlug("info-publik", "index");
+const rows = await fetch(
+  "https://zuhdiali.me/static-api-simitra/rekomendasi-kegiatan.json"
+).then((res) => res.json());
+const page_data = {
+  ...info_publik.data,
+  content: info_publik.body,
+};
+---
+
+<Base
+  title={info_publik.data.title}
+  meta_title={info_publik.data.meta_title}
+  description={info_publik.data.description}
+  image={info_publik.data.image}
+>
+  <section class="page-hero pb-6 pt-16">
+    <div class="container">
+      <div class="page-hero-content mx-auto max-w-[768px] text-center">
+        <PageHeader page_data={page_data} />
+      </div>
+      <!-- {console.log({rows})} -->
+      <!-- <TabelRiwayat rows={rows} client:load /> -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <TabelDanGrafik rows={rows} client:load />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <TabelRiwayatPengajuan rows={rows} client:visible />
+    </div>
+  </section>
+</Base>
