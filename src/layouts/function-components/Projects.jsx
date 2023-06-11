@@ -7,6 +7,7 @@ const Projects = ({ projects }) => {
       <div className="row">
         {projects.map((item, i) => {
           const FeatherIcon = Icon[humanize(item.icon)];
+          const warnatext = { color: "#7D4F50" };
           return (
             <div className="lg:col-6" key={`item-${i}`}>
               <div
@@ -37,8 +38,14 @@ const Projects = ({ projects }) => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="h5 font-primary">{item.title}</h3>
-                  <p className="mt-4">{item.content} </p>
+                  <a href={item.link}>
+                    <h3 className="h5 font-primary" style={warnatext}>
+                      {item.title}
+                    </h3>
+                    <p className="mt-4" style={warnatext}>
+                      {item.content}{" "}
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>
