@@ -94,7 +94,7 @@ export default function TabelRiwayatPengajuan(rows) {
           },
         }}
         pageSizeOptions={[5, 10]}
-        getRowHeight={() => "auto"}
+        // getRowHeight={() => "auto"}
         sx={{
           "& .MuiDataGrid-root": {},
           "& .MuiDataGrid-columnHeaderTitle": {
