@@ -1,70 +1,16 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Beranda",
       "url": "/"
-    },
-    {
-      "name": "About",
-      "url": "/about"
     },
     {
       "name": "Info Publik",
       "url": "/info-publik"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
-    },
-    {
-      "name": "Features",
-      "url": "/features"
-    },
-    {
-      "name": "How It Works",
-      "url": "/how-it-works"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Career",
-          "url": "/career"
-        },
-
-        {
-          "name": "Integrations",
-          "url": "/integrations"
-        },
-
-        {
-          "name": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "name": "Sign In",
-          "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Changelog",
-          "url": "/changelog"
-        },
-        {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
-        }
-      ]
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Survei",
+      "url": "https://docs.google.com/forms/u/0/d/1rJjG1cGqnd6C9JaPdbqVvFmYsOyZCovwSp5TvaMimBA/viewform?edit_requested=true"
     }
   ],
 
