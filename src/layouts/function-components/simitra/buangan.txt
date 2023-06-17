@@ -1,0 +1,68 @@
+INI JIKA TANGGAL MULAI DAN SELESAI DIPISAH
+
+<Grid item xs={12} sm={4}>
+                      <Typography
+                        id="title_tanggal_awal"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Tanggal Pelaksanaan
+                      </Typography>
+                      <Typography
+                        id="value_tanggal_awal"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.tanggal_mengajukan}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={1}>
+                      <Typography
+                        id="sd"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        {" "}
+                      </Typography>
+                      <Typography
+                        id="sd"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        s.d.
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                      <Typography
+                        id="title_tanggal_akhir"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        {" "}
+                      </Typography>
+                      <Typography
+                        id="value_tanggal_akhir"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.tanggal_selesai_proses}
+                      </Typography>
+                    </Grid>
+
+
+INI BUANGAN TOMBOLLL
+// <Button
+//   // variant="outlined"
+//   // color="warning"
+//   // size="small"
+// title="Rincian"
+// onClick={onClick}
+// sx={{
+//   padding: "0px",
+//   width: "max-content",
+//   minWidth: "unset",
+//   fontSize: "1.5rem",
+// }}
+// >
+//   <i class="fa-solid fa-circle-info"></i>
+// </Button>

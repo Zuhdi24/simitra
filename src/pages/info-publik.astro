@@ -1,6 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
 import PageHeader from "@components/PageHeader.astro";
+import TabelPercobaan from "@layouts/function-components/simitra/TabelPercobaan";
 import TabelDanGrafik from "@layouts/function-components/simitra/TabelDanGrafik";
 import TabelRiwayatPengajuan from "@layouts/function-components/simitra/TabelRiwayatPengajuan";
 import { getEntryBySlug } from "astro:content";
@@ -9,6 +10,7 @@ const info_publik = await getEntryBySlug("info-publik", "index");
 const rows = await fetch(
   "https://zuhdiali.me/static-api-simitra/rekomendasi-kegiatan.json"
 ).then((res) => res.json());
+// const rows = await import('../config/simitra/rekomendasi-kegiatan.json');
 const page_data = {
   ...info_publik.data,
   content: info_publik.body,
@@ -26,7 +28,7 @@ const page_data = {
       <div class="page-hero-content mx-auto max-w-[768px] text-center">
         <PageHeader page_data={page_data} />
       </div>
-      <!-- {console.log({rows})} -->
+      <!-- {console.log({ rows })} -->
       <!-- <TabelRiwayat rows={rows} client:load /> -->
     </div>
   </section>
@@ -34,12 +36,16 @@ const page_data = {
   <section class="section">
     <div class="container">
       <TabelDanGrafik client:load />
+      <!-- {console.log({ rows })} -->
     </div>
   </section>
 
   <section class="section">
-    <div class="container">
-      <TabelRiwayatPengajuan rows={rows} client:visible />
+    <div class="container h-full bg-white">
+      <TabelRiwayatPengajuan rows={rows} client:load />
+      <!-- <TabelPercobaan client:load /> -->
     </div>
   </section>
 </Base>
+<script src="https://kit.fontawesome.com/550c311c2e.js" crossorigin="anonymous"
+></script>

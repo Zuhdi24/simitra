@@ -63,6 +63,7 @@ export default function TabelBerdasarkanPemohon(rows) {
         pageSizeOptions={[5, 10]}
         getRowHeight={() => "auto"}
         sx={{
+          fontFamily: "Poppins",
           "& .MuiDataGrid-columnHeaderTitle": {
             whiteSpace: "normal",
             lineHeight: "normal",
