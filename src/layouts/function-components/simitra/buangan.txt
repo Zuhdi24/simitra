@@ -1,3 +1,265 @@
+INI BUANGAN FULL Modal
+<Modal
+            aria-labelledby="transition-modal-title"
+            aria-describedby="transition-modal-description"
+            open={open}
+            onClose={handleClose}
+            closeAfterTransition
+            slots={{ backdrop: Backdrop }}
+            slotProps={{
+              backdrop: {
+                timeout: 500,
+              },
+            }}
+          >
+            <ThemeProvider theme={theme}>
+              <CssBaseline />
+              <Fade in={open}>
+                <Box sx={style}>
+                  <Typography
+                    id="title_utama"
+                    variant="h4"
+                    sx={{ marginBottom: "20px" }}
+                  >
+                    Rincian Pelatihan
+                  </Typography>
+                  <Grid container spacing={3}>
+                    <Grid item xs={12}>
+                      <Typography
+                        id="title_asal_pemohon"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Asal Pemohon
+                      </Typography>
+                      <Typography
+                        id="value_asal_pemohon"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.asal_pemohon}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={8}>
+                      <Typography
+                        id="title_nama_pelatihan"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Nama Pelatihan
+                      </Typography>
+                      <Typography
+                        id="value_nama_pelatihan"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.nama_kegiatan}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                      <Typography
+                        id="title_jenis_pelatihan"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Jenis Pelatihan
+                      </Typography>
+                      <Typography
+                        id="value_jenis_pelatihan"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.jenis_kegiatan}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                      <Typography
+                        id="title_metode_pembelajaran"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Metode Pembelajaran
+                      </Typography>
+                      <Typography
+                        id="value_metode_pembelajaran"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.metode_pembelajaran}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                      <Typography
+                        id="title_anggaran"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Anggaran
+                      </Typography>
+                      <Typography
+                        id="value_anggaran"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.anggaran}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                      <Typography
+                        id="title_target_peserta"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Target Peserta
+                      </Typography>
+                      <Typography
+                        id="value_target_peserta"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.target_peserta}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={8}>
+                      <Typography
+                        id="title_tanggal_pelaksanaan"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Tanggal Pelaksanaan
+                      </Typography>
+                      <Typography
+                        id="value_tanggal_pelaksanaan"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.tanggal_pelaksanaan}
+                      </Typography>
+                    </Grid>
+
+                    <Grid item xs={12} sm={4}>
+                      <Typography
+                        id="title_jumlah_hari"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        {" "}
+                        Jumlah Hari
+                      </Typography>
+                      <Typography
+                        id="value_jumlah_hari"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.jumlah_hari}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={6}>
+                      <Typography
+                        id="title_sumber_anggaran"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Sumber Anggaran
+                      </Typography>
+                      <Typography
+                        id="value_sumber_anggaran"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.sumber_anggaran}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={6}>
+                      <Typography
+                        id="title_peserta"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Peserta
+                      </Typography>
+                      <Typography
+                        id="value_peserta"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.target_peserta}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                      <Typography
+                        id="title_tempat_pelaksanaan"
+                        variant="body2"
+                        sx={{ fontWeight: "bold" }}
+                      >
+                        Tempat Pelaksanaan
+                      </Typography>
+                      <Typography
+                        id="value_tempat_pelaksanaan"
+                        variant="body2"
+                        className="rounded-lg border-2 px-5 py-2"
+                      >
+                        {params.row.tempat_pelaksanaan}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={3}>
+                      <Stack
+                        direction="row"
+                        spacing={2}
+                        sx={{ width: "max-content" }}
+                      >
+                        <Button
+                          variant="contained"
+                          startIcon={<DeleteIcon />}
+                          disableElevation
+                          href={params.row.link_sp}
+                        >
+                          Surat Pengantar
+                        </Button>
+                        <Button
+                          variant="contained"
+                          startIcon={<SendIcon />}
+                          href={params.row.link_proposal}
+                        >
+                          Proposal
+                        </Button>
+                        {params.row.link_rekomendasi != "" ? (
+                          <Button
+                            variant="contained"
+                            startIcon={<SendIcon />}
+                            href={params.row.link_rekomendasi}
+                          >
+                            Rekomendasi
+                          </Button>
+                        ) : (
+                          ""
+                        )}
+                        {params.row.link_laporan != "" ? (
+                          <Button
+                            variant="contained"
+                            startIcon={<SendIcon />}
+                            href={params.row.link_laporan}
+                          >
+                            Laporan
+                          </Button>
+                        ) : (
+                          ""
+                        )}
+                      </Stack>
+                    </Grid>
+                  </Grid>
+                </Box>
+              </Fade>
+            </ThemeProvider>
+          </Modal>
+
+
+
+
+
+
+
+
 INI JIKA TANGGAL MULAI DAN SELESAI DIPISAH
 
 <Grid item xs={12} sm={4}>
