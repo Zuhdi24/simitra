@@ -28,20 +28,14 @@ const page_data = {
       <div class="page-hero-content mx-auto max-w-[768px] text-center">
         <PageHeader page_data={page_data} />
       </div>
-      <!-- {console.log({ rows })} -->
-      <!-- <TabelRiwayat rows={rows} client:load /> -->
     </div>
   </section>
 
   <section class="section">
-    <div class="container">
+    <div class="container h-full bg-white mb-10 rounded-xl">
       <TabelDanGrafik client:load />
-      <!-- {console.log({ rows })} -->
     </div>
-  </section>
-
-  <section class="section">
-    <div class="container h-full bg-white">
+    <div class="container h-full bg-white rounded-xl">
       <TabelRiwayatPengajuan rows={rows} client:load />
       <!-- <TabelPercobaan client:load /> -->
     </div>

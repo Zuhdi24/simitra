@@ -6,8 +6,9 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
-import DeleteIcon from "@mui/icons-material/Delete";
-import SendIcon from "@mui/icons-material/Send";
+// import DeleteIcon from "@mui/icons-material/Delete";
+// import SendIcon from "@mui/icons-material/Send";
+import DescriptionIcon from "@mui/icons-material/Description";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -31,20 +32,6 @@ const theme = createTheme({
   },
 });
 
-// // ...
-// return (
-
-//     <CssBaseline />
-//     <Box
-//       sx={{
-//         fontFamily: 'Raleway',
-//       }}
-//     >
-//       Raleway
-//     </Box>
-//   </ThemeProvider>
-// );
-
 const columns = [
   {
     field: "id",
@@ -56,7 +43,7 @@ const columns = [
   {
     field: "asal_pemohon",
     headerName: "Asal Pemohon",
-    minWidth: 150,
+    minWidth: 200,
     headerAlign: "center",
   },
   {
@@ -135,6 +122,11 @@ const columns = [
               backdrop: {
                 timeout: 500,
               },
+            }}
+            sx={{
+              "& .MuiTypography-root": { color: "#7d4f50" },
+              "& .MuiButtonBase-root": { backgroundColor: "#7d4f50" },
+              "& .MuiButtonBase-root:hover": { backgroundColor: "#aa998f" },
             }}
           >
             <ThemeProvider theme={theme}>
@@ -335,7 +327,7 @@ const columns = [
                       >
                         <Button
                           variant="contained"
-                          startIcon={<DeleteIcon />}
+                          startIcon={<DescriptionIcon />}
                           disableElevation
                           href={params.row.link_sp}
                         >
@@ -343,7 +335,7 @@ const columns = [
                         </Button>
                         <Button
                           variant="contained"
-                          startIcon={<SendIcon />}
+                          startIcon={<DescriptionIcon />}
                           href={params.row.link_proposal}
                         >
                           Proposal
@@ -351,7 +343,7 @@ const columns = [
                         {params.row.link_rekomendasi != "" ? (
                           <Button
                             variant="contained"
-                            startIcon={<SendIcon />}
+                            startIcon={<DescriptionIcon />}
                             href={params.row.link_rekomendasi}
                           >
                             Rekomendasi
@@ -362,7 +354,7 @@ const columns = [
                         {params.row.link_laporan != "" ? (
                           <Button
                             variant="contained"
-                            startIcon={<SendIcon />}
+                            startIcon={<DescriptionIcon />}
                             href={params.row.link_laporan}
                           >
                             Laporan
@@ -398,7 +390,7 @@ const style = {
 export default function TabelRiwayatPengajuan(rows) {
   return (
     <>
-      <div style={{ height: 500, width: "100%" }} className="rounded-xl p-3">
+      <div style={{ height: 600, width: "100%" }} className="rounded-xl p-3">
         <h1 className="h5 my-5 text-center">
           Rekap Data Pengajuan Rekomendasi Pelatihan
         </h1>
