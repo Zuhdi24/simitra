@@ -33,26 +33,33 @@ key_features:
   description: proses sistematis yang digunakan untuk mengidentifikasi dan merekomendasikan pengajuan atau proposal berdasarkan kriteria atau parameter tertentu.
   feature_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: 1. Kab/Kota
+      title: Kab/Kota
       content: mengisi form pengajuan rekomendasi dan form evaluasi pra pelatihan.
+      angka : 1
     - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-      title: 2. Admin Bidang 1
+      title: Admin Bidang 1
       content: memverifikasi pengajuan dan melakukan evaluasi pra pelatihan.
+      angka : 2
     - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: 3. Admin Bidang Penyelenggara
+      title: Admin Bidang Penyelenggara
       content: memverifikasi pengajuan dan melakukan rapat persiapan.
+      angka : 3
     - icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-      title: 4. Sekretaris
+      title: Sekretaris
       content: memverifikasi pengajuan dan draft surat rekomendasi.
+      angka : 4  
     - icon: "monitor" #icon package react-feather-icon [https://feathericons.com/]
-      title: 5. Pimpinan
+      title: Pimpinan
       content: menyetujui pengajuan dan menerbitkan surat rekomendasi.
+      angka : 5
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: 6. Kab/Kota
+      title: Kab/Kota
       content: mengunduh surat rekomendasi dan SK kurikulum.
+      angka : 6
     - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: 7. Kab/Kota
+      title: Kab/Kota
       content: wajib mengunggah laporan penyelenggaraan.
+      angka : 7
 
 referensidokumen:
   title: Referensi Dokumen

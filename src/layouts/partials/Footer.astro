@@ -6,12 +6,16 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 import { Image } from "@astrojs/image/components";
-import { useNemo } from "react"; 
-import { GoogleMap, useLoadScript, Marker} from "@react-google-maps/api";
+import { useNemo } from "react";
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 const { footer } = menu;
 const { copyright, location, email, phone, footer_description } = config.params;
 ---
-<footer class="footer bg-[#F1F1F1]" style="background-image:url('/images/gambar-wayang.png'); z-index:1; background-repeat:no-repeat;">
+
+<footer
+  class="footer bg-[#F1F1F1]"
+  style="background-image:url('/images/gambar-wayang.png'); z-index:1; background-repeat:no-repeat; margin-top:50px;"
+>
   <div class="container">
     <div class="gx-5 row pb-10 pt-[52px]">
       <div class="col-12 mt-12 md:col-6 lg:col-3">
@@ -35,12 +39,13 @@ const { copyright, location, email, phone, footer_description } = config.params;
             >
           </li>
           <li>
-            <h7> Call Center: 024 7473066
-            <br> SMS Center : 0811 281 5000</h7>
+            <h7>
+              Call Center: 024 7473066
+              <br /> SMS Center : 0811 281 5000</h7
+            >
           </li>
         </ul>
       </div>
-      
     </div>
   </div>
   <div class="container max-w-[1440px]">
