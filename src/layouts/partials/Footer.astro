@@ -6,15 +6,14 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 import { Image } from "@astrojs/image/components";
-import { useNemo } from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import Peta from "@layouts/function-components/map";
 const { footer } = menu;
 const { copyright, location, email, phone, footer_description } = config.params;
 ---
 
 <footer
   class="footer bg-[#F1F1F1]"
-  style="background-image:url('/images/gambar-wayang.png'); z-index:1; background-repeat:no-repeat; margin-top:50px;"
+  style="background-image:url('/images/gambar-wayang.png'); z-index:1; background-repeat:no-repeat;"
 >
   <div class="container">
     <div class="gx-5 row pb-10 pt-[52px]">
@@ -46,13 +45,16 @@ const { copyright, location, email, phone, footer_description } = config.params;
           </li>
         </ul>
       </div>
-    </div>
-  </div>
-  <div class="container max-w-[1440px]">
-    <div
-      class="footer-copyright mx-auto border-t border-border pb-10 pt-7 text-center"
-    >
-      <p class="content text-text" set:html={markdownify(copyright)} />
+      <div class="col-12 mt-12 md:col-6 lg:col-3">
+        <Peta client:load />
+      </div>
+      <div class="container max-w-[1440px]">
+        <div
+          class="footer-copyright mx-auto border-t border-border pb-10 pt-7 text-center"
+        >
+          <p class="content text-text" set:html={markdownify(copyright)} />
+        </div>
+      </div>
     </div>
   </div>
 </footer>

@@ -10,7 +10,7 @@ const SigninSlider = ({ title }) => {
   const [swiper, setSwiper] = useState(null);
   const paginationRef = useRef(null);
   return (
-    <div className="auth-banner bg-gradient flex hidden flex-col items-center justify-center py-16 lg:col-6 lg:block">
+    <div className="auth-banner flex hidden flex-col items-center justify-center py-16 lg:col-6 lg:block">
       {/* <img
         className="absolute left-0 top-0 h-full w-full"
         src="/images/login-banner-bg.png"
@@ -22,7 +22,14 @@ const SigninSlider = ({ title }) => {
           dangerouslySetInnerHTML={{ __html: marked.parse(title) }}
         /> */}
         <div className="auth-banner-carousel">
-          <Swiper
+          <img
+            width="667"
+            height="557"
+            className="mx-auto"
+            src="/images/@simitra/login.svg"
+            alt=""
+          />
+          {/* <Swiper
             pagination={{
               type: "bullets",
               el: paginationRef.current,
@@ -63,15 +70,15 @@ const SigninSlider = ({ title }) => {
                 alt=""
               />
             </SwiperSlide>
-          </Swiper>
+          </Swiper> */}
 
           <div className="relative flex justify-center">
-            <div
+            {/* <div
               width="100%"
               className=" pagination"
               style={{ width: "100%" }}
               ref={paginationRef}
-            ></div>
+            ></div> */}
           </div>
         </div>
       </div>
