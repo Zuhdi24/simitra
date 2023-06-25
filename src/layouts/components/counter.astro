@@ -2,35 +2,50 @@
 const { counter } = Astro.props;
 ---
 
-<div class="counter mt-16">
-    <div
-        class="row mx-0 rounded-[20px] px-10 shadow-lg lg:py-10"
-        style="background: #CC8B86; width: 75em; height: 150px; position:relative; top:-100px; left:80px;"
-    >
-        {
-            counter.map((item: any) => (
-                <div class="border-border sm:col-6 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
-                    <h2>
-                        <span
-                            class="count"
-                            aria-valuenow={item.number}
-                            style="color: white; "
-                        >
-                            0
-                        </span>
-                        <span
-                            class={"text-primary"}
-                            style={{
-                                color: item.color,
-                            }}
-                        >
-                            +
-                        </span>
-                    </h2>
-                    <p style="color: white;">{item.name}</p>
-                </div>
-            ))
-        }
+<style>
+    .animated-element {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .animated-element.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+</style>
+
+<div class="animated-element">
+    <div class="counter mt-16" style="padding-bottom:100px;">
+        <div
+            class="row mx-0 rounded-[20px] px-10 shadow-lg lg:py-10"
+            style="background: #ffffff; padding: 75px 75px;"
+        >
+            {
+                counter.map((item: any) => (
+                    <div class="border-border sm:col-6 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
+                        <h2>
+                            <span
+                                class="count"
+                                aria-valuenow={item.number}
+                                style="color: #CC8B86; "
+                            >
+                                0
+                            </span>
+                            <h2
+                                class={"text-primary"}
+                                style={{
+                                    color: item.color,
+                                }}
+                            />
+                        </h2>
+                        <p style="color: #CC8B86; font-size:20px">
+                            {item.name}
+                        </p>
+                    </div>
+                ))
+            }
+        </div>
     </div>
 </div>
 
@@ -53,4 +68,21 @@ counters.forEach((counter) => {
 
     animate();
 });
+
+window.addEventListener("scroll", revealElement);
+
+function revealElement() {
+    var elements = document.querySelectorAll(".animated-element");
+    var windowHeight = window.innerHeight;
+
+    elements.forEach(function (element) {
+        var elementPosition = element.getBoundingClientRect().top;
+
+        if (elementPosition < windowHeight) {
+            element.classList.add("show");
+        } else {
+            element.classList.remove("show");
+        }
+    });
+}
 </script>

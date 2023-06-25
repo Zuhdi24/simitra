@@ -12,25 +12,59 @@ const {
 ---
 
 <section class="section features pb-0">
+    <style>
+        .animated-element {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease, transform 1s ease;
+        }
+
+        .animated-element.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+
     <div class="container">
-        <div class="row">
-            <div class="mx-auto text-center lg:col-7">
-                <h2 set:html={markdownify(title)} style="color:#7D4F50; " />
-                <p
-                    class="mt-4"
-                    set:html={markdownify(content)}
-                    style="color:#7D4F50; "
-                />
-            </div>
-        </div>
-        <div
-            class="p mt-14 rounded-xl bg-white p-6 shadow-lg lg:px-12 lg:py-16"
-        >
+        <div class="animated-element">
             <div class="row">
-                <Projects client:load projects={management.projects} />
+                <div class="mx-auto text-center lg:col-7">
+                    <h2 set:html={markdownify(title)} style="color:#7D4F50; " />
+                    <p
+                        class="mt-4"
+                        set:html={markdownify(content)}
+                        style="color:#7D4F50; "
+                    />
+                </div>
             </div>
-        </div>
-        <!-- <FeatureService feature_service={feature_service} />
+            <div
+                class="p mt-14 rounded-xl bg-white p-6 shadow-lg lg:px-12 lg:py-16"
+            >
+                <div class="row">
+                    <Projects client:load projects={management.projects} />
+                </div>
+            </div>
+            <!-- <FeatureService feature_service={feature_service} />
         <FeatureTab client:load feature_tab={feature_tab} /> -->
+        </div>
     </div>
+
+    <script>
+        window.addEventListener("scroll", revealElement);
+
+        function revealElement() {
+            var elements = document.querySelectorAll(".animated-element");
+            var windowHeight = window.innerHeight;
+
+            elements.forEach(function (element) {
+                var elementPosition = element.getBoundingClientRect().top;
+
+                if (elementPosition < windowHeight) {
+                    element.classList.add("show");
+                } else {
+                    element.classList.remove("show");
+                }
+            });
+        }
+    </script>
 </section>
