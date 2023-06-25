@@ -1,0 +1,11 @@
+.visibi-hidden{
+    visibility: hidden;
+}
+
+.visibi-visible{
+    visibility: visible;
+}
+
+#konten_modal_utama{
+    z-index: 100;
+}

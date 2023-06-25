@@ -260,6 +260,28 @@ INI BUANGAN FULL Modal
 
 
 
+
+
+
+
+
+
+BUANGAN YANG TIDAK JELAS
+<div
+          className="modal fixed left-0 top-0 flex hidden h-screen w-full items-center justify-center bg-black bg-opacity-50"
+          id="modal_utama"
+        >
+
+
+
+
+
+
+
+
+
+
+
 INI JIKA TANGGAL MULAI DAN SELESAI DIPISAH
 
 <Grid item xs={12} sm={4}>

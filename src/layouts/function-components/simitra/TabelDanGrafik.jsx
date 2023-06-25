@@ -106,7 +106,6 @@ export default function TabelDanGrafik() {
             Jumlah Pengajuan Rekomendasi Berdasarkan Pemohon
           </h1>
           <div className="container p-1">
-            {console.log(rows)}
             <TabelBerdasarkanPemohon rows={rows} />
           </div>
         </TabPanel>
