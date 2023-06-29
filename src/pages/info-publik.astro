@@ -1,7 +1,6 @@
 ---
 import Base from "@layouts/Base.astro";
 import PageHeader from "@components/PageHeader.astro";
-import TabelPercobaan from "@layouts/function-components/simitra/TabelPercobaan";
 import TabelDanGrafik from "@layouts/function-components/simitra/TabelDanGrafik";
 import TabelRiwayatPengajuan from "@layouts/function-components/simitra/TabelRiwayatPengajuan";
 import { getEntryBySlug } from "astro:content";
@@ -32,10 +31,10 @@ const page_data = {
   </section>
 
   <section class="section">
-    <div class="container h-full bg-white mb-10 rounded-xl">
+    <div class="container mb-10 h-full rounded-xl bg-white">
       <TabelDanGrafik client:load />
     </div>
-    <div class="container h-full bg-white rounded-xl">
+    <div class="container h-full rounded-xl bg-white">
       <TabelRiwayatPengajuan rows={rows} client:load />
       <!-- <TabelPercobaan client:load /> -->
     </div>

@@ -127,6 +127,7 @@ const columns = [
 export default function TabelBerdasarkanPemohon(rows) {
   return (
     <div style={{ height: 600, width: "100%" }} className="bg-white">
+      {console.log(rows)}
       <DataGrid
         rows={rows.rows}
         columns={columns}
