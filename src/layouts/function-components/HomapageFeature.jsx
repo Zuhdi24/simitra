@@ -21,11 +21,13 @@ const HomapageFeature = ({ feature_list }) => {
               className={`flex flex-col rounded-lg bg-white p-5 shadow-lg ${justifyCenter}`}
               style={{ paddingTop: '50px', gridColumn }}
             >
-              <div style={{ position: 'relative', width: '100px', height: '100px' }}>
-                <div style={{ position: 'absolute', top: '-60px', left: '110%', transform: 'translateX(-50%)', width: '50px', height: '50px', border: '0.5px solid black', backgroundColor: 'white', borderRadius: '50%', zIndex: '1', opacity: '1' }}>
-                  <p style={{ textAlign: 'center', fontSize: '20px', color: '#7D4F50', opacity: '1', fontWeight: 'bold' }}>
-                    {item.angka}
-                  </p>
+              <div style={{ position: 'relative', width: '100%', height: '100px' }}>
+                <div className="container">
+                  <div style={{ position: 'absolute', top: '-50%', left: '50%', transform: 'translate(-50%,-50%)', width: '50px', height: '50px', border: '0.5px solid black', backgroundColor: 'white', borderRadius: '50%', zIndex: '1', opacity: '1' }}>
+                    <p style={{ textAlign: 'center', fontSize: '20px', color: '#7D4F50', opacity: '1', fontWeight: 'bold' }}>
+                      {item.angka}
+                    </p>
+                  </div>
                 </div>
               </div>
               <div style={{ position: 'relative', top: '-60px' }}>
