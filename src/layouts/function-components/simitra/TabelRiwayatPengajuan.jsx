@@ -1,9 +1,6 @@
 import * as React from "react";
 import { DataGrid } from "@mui/x-data-grid";
-// import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
-// import Modal from "@mui/material/Modal";
-// import Fade from "@mui/material/Fade";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import CloseIcon from "@mui/icons-material/Close";
@@ -11,31 +8,13 @@ import InfoIcon from "@mui/icons-material/Info";
 import DescriptionIcon from "@mui/icons-material/Description";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import CssBaseline from "@mui/material/CssBaseline";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
 import "./info-publik.css";
 
 const rows = await fetch(
   "https://zuhdiali.me/static-api-simitra/rekomendasi-kegiatan.json"
 ).then((res) => res.json());
 
-const theme = createTheme({
-  typography: {
-    fontFamily: "Poppins",
-  },
-  components: {
-    MuiCssBaseline: {
-      styleOverrides: `
-        @font-face {
-          font-family: 'Poppins';
-          font-style: normal;
-          font-display: swap;
-          font-weight: 400;
-        }
-      `,
-    },
-  },
-});
+function ButtonInfo(params) {}
 
 const columns = [
   {
@@ -196,20 +175,9 @@ const columns = [
   },
 ];
 
-const style = {
-  position: "fixed", //aslinya posisinya absolute
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: "80vw",
-  height: "max-content",
-  maxHeight: "90vh",
-  overflowY: "scroll",
-  bgcolor: "background.paper",
-  border: "2px solid #7d4f50",
-  boxShadow: 24,
-  p: 4,
-};
+// const style = {
+
+// };
 
 export default function TabelRiwayatPengajuan() {
   return (
@@ -334,7 +302,6 @@ export default function TabelRiwayatPengajuan() {
             },
           }}
         />
-        {/* {console.log(rows.rows)} */}
 
         <Box
           sx={{
@@ -345,272 +312,281 @@ export default function TabelRiwayatPengajuan() {
           id="modal_utama"
           className="  hidden "
         >
-          <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <Box sx={style} id="konten_modal_utama">
-              <div className="flex items-center justify-between">
-                <Typography
-                  id="title_utama"
-                  variant="h4"
-                  className="sticky top-0"
-                  sx={{ marginBottom: "20px" }}
-                >
-                  Rincian Pelatihan
-                </Typography>
-                <Button
-                  onClick={() => {
-                    document
-                      .getElementById("modal_utama")
-                      .classList.add("hidden");
-                    // document
-                    //   .getElementById("btn_laporan")
-                    //   .classList.add("hidden");
-                    // document
-                    //   .getElementById("btn_rekomendasi")
-                    //   .classList.add("hidden");
-                  }}
-                  title="Rincian"
-                  sx={{
-                    padding: "2px",
-                    width: "max-content",
-                    minWidth: "unset",
-                    fontSize: "1.5rem",
-                    color: "white",
-                    position: "absolute",
-                    top: 5,
-                    right: 5,
-                  }}
-                >
-                  {/* <i className="fa-solid fa-circle-info"></i> */}
-                  <CloseIcon />
-                </Button>
-              </div>
-              <Grid container spacing={3}>
-                <Grid item xs={12}>
+          <Box
+            sx={{
+              position: "fixed", //aslinya posisinya absolute
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              width: "80vw",
+              height: "max-content",
+              maxHeight: "90vh",
+              overflowY: "scroll",
+              bgcolor: "background.paper",
+              border: "2px solid #7d4f50",
+              boxShadow: 24,
+              p: 4,
+            }}
+            id="konten_modal_utama"
+          >
+            <Grid container spacing={3}>
+              <Grid item xs={12}>
+                <div className="flex items-center justify-between">
                   <Typography
-                    id="title_asal_pemohon"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
+                    id="title_utama"
+                    variant="h4"
+                    className="sticky top-0"
+                    sx={{ marginBottom: "20px" }}
                   >
-                    Asal Pemohon
+                    Rincian Pelatihan
                   </Typography>
-                  <Typography
-                    id="value_asal_pemohon"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
+                  <Button
+                    onClick={() => {
+                      document
+                        .getElementById("modal_utama")
+                        .classList.add("hidden");
+                    }}
+                    title="Rincian"
+                    sx={{
+                      padding: "2px",
+                      width: "max-content",
+                      minWidth: "unset",
+                      fontSize: "1.5rem",
+                      color: "white",
+                      position: "absolute",
+                      top: 5,
+                      right: 5,
+                    }}
                   >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={8}>
-                  <Typography
-                    id="title_nama_pelatihan"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Nama Pelatihan
-                  </Typography>
-                  <Typography
-                    id="value_nama_pelatihan"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={4}>
-                  <Typography
-                    id="title_jenis_pelatihan"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Jenis Pelatihan
-                  </Typography>
-                  <Typography
-                    id="value_jenis_pelatihan"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={4}>
-                  <Typography
-                    id="title_metode_pembelajaran"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Metode Pembelajaran
-                  </Typography>
-                  <Typography
-                    id="value_metode_pembelajaran"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={4}>
-                  <Typography
-                    id="title_anggaran"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Anggaran
-                  </Typography>
-                  <Typography
-                    id="value_anggaran"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={4}>
-                  <Typography
-                    id="title_target_peserta"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Target Peserta
-                  </Typography>
-                  <Typography
-                    id="value_target_peserta"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={8}>
-                  <Typography
-                    id="title_tanggal_pelaksanaan"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Tanggal Pelaksanaan
-                  </Typography>
-                  <Typography
-                    id="value_tanggal_pelaksanaan"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-
-                <Grid item xs={12} sm={4}>
-                  <Typography
-                    id="title_jumlah_hari"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    {" "}
-                    Jumlah Hari
-                  </Typography>
-                  <Typography
-                    id="value_jumlah_hari"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                  <Typography
-                    id="title_sumber_anggaran"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Sumber Anggaran
-                  </Typography>
-                  <Typography
-                    id="value_sumber_anggaran"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                  <Typography
-                    id="title_peserta"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Peserta
-                  </Typography>
-                  <Typography
-                    id="value_peserta"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12}>
-                  <Typography
-                    id="title_tempat_pelaksanaan"
-                    variant="body2"
-                    sx={{ fontWeight: "bold" }}
-                  >
-                    Tempat Pelaksanaan
-                  </Typography>
-                  <Typography
-                    id="value_tempat_pelaksanaan"
-                    variant="body2"
-                    className="rounded-lg border-2 px-5 py-2"
-                  >
-                    Tidak ada informasi
-                  </Typography>
-                </Grid>
-                <Grid item xs={12} sm={3}>
-                  <Stack
-                    direction={{ xs: "column", sm: "row" }}
-                    spacing={{ xs: 1, md: 4 }}
-                    className="xs:w-auto sm:w-max"
-                  >
-                    <Button
-                      variant="contained"
-                      startIcon={<DescriptionIcon />}
-                      disableElevation
-                      id="btn_surat_pengantar"
-                      href="https://www.google.com"
-                    >
-                      Surat Pengantar
-                    </Button>
-                    <Button
-                      variant="contained"
-                      startIcon={<DescriptionIcon />}
-                      id="btn_proposal"
-                      href="https://www.google.com"
-                    >
-                      Proposal
-                    </Button>
-                    <Button
-                      variant="contained"
-                      startIcon={<DescriptionIcon />}
-                      id="btn_rekomendasi"
-                      className="visibi-hidden"
-                      href="https://www.google.com"
-                    >
-                      Rekomendasi
-                    </Button>
-
-                    <Button
-                      variant="contained"
-                      startIcon={<DescriptionIcon />}
-                      id="btn_laporan"
-                      className="visibi-hidden"
-                      href="https://www.google.com"
-                    >
-                      Laporan
-                    </Button>
-                  </Stack>
-                </Grid>
+                    <CloseIcon />
+                  </Button>
+                </div>
               </Grid>
-            </Box>
-          </ThemeProvider>
+
+              <Grid item xs={12}>
+                <Typography
+                  id="title_asal_pemohon"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Asal Pemohon
+                </Typography>
+                <Typography
+                  id="value_asal_pemohon"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={8}>
+                <Typography
+                  id="title_nama_pelatihan"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Nama Pelatihan
+                </Typography>
+                <Typography
+                  id="value_nama_pelatihan"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={4}>
+                <Typography
+                  id="title_jenis_pelatihan"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Jenis Pelatihan
+                </Typography>
+                <Typography
+                  id="value_jenis_pelatihan"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={4}>
+                <Typography
+                  id="title_metode_pembelajaran"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Metode Pembelajaran
+                </Typography>
+                <Typography
+                  id="value_metode_pembelajaran"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={4}>
+                <Typography
+                  id="title_anggaran"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Anggaran
+                </Typography>
+                <Typography
+                  id="value_anggaran"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={4}>
+                <Typography
+                  id="title_target_peserta"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Target Peserta
+                </Typography>
+                <Typography
+                  id="value_target_peserta"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={8}>
+                <Typography
+                  id="title_tanggal_pelaksanaan"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Tanggal Pelaksanaan
+                </Typography>
+                <Typography
+                  id="value_tanggal_pelaksanaan"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+
+              <Grid item xs={12} sm={4}>
+                <Typography
+                  id="title_jumlah_hari"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  {" "}
+                  Jumlah Hari
+                </Typography>
+                <Typography
+                  id="value_jumlah_hari"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <Typography
+                  id="title_sumber_anggaran"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Sumber Anggaran
+                </Typography>
+                <Typography
+                  id="value_sumber_anggaran"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <Typography
+                  id="title_peserta"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Peserta
+                </Typography>
+                <Typography
+                  id="value_peserta"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Typography
+                  id="title_tempat_pelaksanaan"
+                  variant="body2"
+                  sx={{ fontWeight: "bold" }}
+                >
+                  Tempat Pelaksanaan
+                </Typography>
+                <Typography
+                  id="value_tempat_pelaksanaan"
+                  variant="body2"
+                  className="rounded-lg border-2 px-5 py-2"
+                >
+                  Tidak ada informasi
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={3}>
+                <Stack
+                  direction={{ xs: "column", sm: "row" }}
+                  spacing={{ xs: 1, md: 4 }}
+                  className="xs:w-auto sm:w-max"
+                >
+                  <Button
+                    variant="contained"
+                    startIcon={<DescriptionIcon />}
+                    disableElevation
+                    id="btn_surat_pengantar"
+                    href="https://www.google.com"
+                  >
+                    Surat Pengantar
+                  </Button>
+                  <Button
+                    variant="contained"
+                    startIcon={<DescriptionIcon />}
+                    id="btn_proposal"
+                    href="https://www.google.com"
+                  >
+                    Proposal
+                  </Button>
+                  <Button
+                    variant="contained"
+                    startIcon={<DescriptionIcon />}
+                    id="btn_rekomendasi"
+                    className="visibi-hidden"
+                    href="https://www.google.com"
+                  >
+                    Rekomendasi
+                  </Button>
+
+                  <Button
+                    variant="contained"
+                    startIcon={<DescriptionIcon />}
+                    id="btn_laporan"
+                    className="visibi-hidden"
+                    href="https://www.google.com"
+                  >
+                    Laporan
+                  </Button>
+                </Stack>
+              </Grid>
+            </Grid>
+          </Box>
         </Box>
       </div>
     </>

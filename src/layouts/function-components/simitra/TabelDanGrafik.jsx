@@ -4,17 +4,16 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import TabContext from "@mui/lab/TabContext";
-import TabList from "@mui/lab/TabList";
+// import TabContext from "@mui/lab/TabContext";
+// import TabPanel from "@mui/lab/TabPanel";
+// import TabList from "@mui/lab/TabList";
 
 import DiagramBatang from "@layouts/function-components/simitra/DiagramBatang.jsx";
-import TabelBerdasarkanPemohon from "@layouts/function-components/simitra/TabelBerdasarkanPemohon.jsx";
-// import { createTheme } from "@mui/material/styles";
+import TabelBerdasarkanPemohon from "@layouts/function-components/simitra/TabelBerdasarkanPemohon";
 
 // const rows = await fetch(
 //   "https://zuhdiali.me/static-api-simitra/riwayat-pemohon.json"
 // ).then((res) => res.json());
-
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -71,16 +70,22 @@ export default function TabelDanGrafik() {
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
-                      sx={{
-              "& .MuiTabs-indicator": { backgroundColor: "#7d4f50" },
-              "& .MuiTab-root": { color: "#7d4f50" },
-              "& .MuiTab-root.Mui-selected": { color: "#7d4f50" },
-            }}
+          sx={{
+            "& .MuiTabs-indicator": { backgroundColor: "#7d4f50" },
+            "& .MuiTab-root": { color: "#7d4f50" },
+            "& .MuiTab-root.Mui-selected": { color: "#7d4f50" },
+          }}
         >
-          <Tab sx={{ fontFamily: "Poppins" }}
-              label="Berdasarkan Jenis Pelatihan" {...a11yProps(0)} />
-          <Tab                sx={{ fontFamily: "Poppins" }}
-              label="Berdasarkan Pemohon" {...a11yProps(1)} />
+          <Tab
+            sx={{ fontFamily: "Poppins" }}
+            label="Berdasarkan Jenis Pelatihan"
+            {...a11yProps(0)}
+          />
+          <Tab
+            sx={{ fontFamily: "Poppins" }}
+            label="Berdasarkan Pemohon"
+            {...a11yProps(1)}
+          />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
