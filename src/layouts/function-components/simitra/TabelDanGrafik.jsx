@@ -11,9 +11,9 @@ import DiagramBatang from "@layouts/function-components/simitra/DiagramBatang.js
 import TabelBerdasarkanPemohon from "@layouts/function-components/simitra/TabelBerdasarkanPemohon.jsx";
 // import { createTheme } from "@mui/material/styles";
 
-const rows = await fetch(
-  "https://zuhdiali.me/static-api-simitra/riwayat-pemohon.json"
-).then((res) => res.json());
+// const rows = await fetch(
+//   "https://zuhdiali.me/static-api-simitra/riwayat-pemohon.json"
+// ).then((res) => res.json());
 
 
 function TabPanel(props) {
@@ -94,7 +94,7 @@ export default function TabelDanGrafik() {
           Jumlah Pengajuan Rekomendasi Berdasarkan Pemohon
         </h1>
         <div className="container p-1">
-          <TabelBerdasarkanPemohon rows={rows} />
+          <TabelBerdasarkanPemohon />
         </div>
       </TabPanel>
     </Box>

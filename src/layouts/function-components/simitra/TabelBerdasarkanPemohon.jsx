@@ -2,6 +2,10 @@ import * as React from "react";
 // import Box from "@mui/material/Box";
 import { DataGrid } from "@mui/x-data-grid";
 
+const rows = await fetch(
+  "https://zuhdiali.me/static-api-simitra/riwayat-pemohon.json"
+).then((res) => res.json());
+
 const columns = [
   {
     field: "id",
@@ -124,12 +128,11 @@ const columns = [
   },
 ];
 
-export default function TabelBerdasarkanPemohon(rows) {
+export default function TabelBerdasarkanPemohon() {
   return (
     <div style={{ height: 600, width: "100%" }} className="bg-white">
-      {console.log(rows)}
       <DataGrid
-        rows={rows.rows}
+        rows={rows}
         columns={columns}
         initialState={{
           pagination: {

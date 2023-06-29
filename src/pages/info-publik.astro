@@ -6,9 +6,7 @@ import TabelRiwayatPengajuan from "@layouts/function-components/simitra/TabelRiw
 import { getEntryBySlug } from "astro:content";
 
 const info_publik = await getEntryBySlug("info-publik", "index");
-const rows = await fetch(
-  "https://zuhdiali.me/static-api-simitra/rekomendasi-kegiatan.json"
-).then((res) => res.json());
+
 // const rows = await import('../config/simitra/rekomendasi-kegiatan.json');
 const page_data = {
   ...info_publik.data,
@@ -35,7 +33,7 @@ const page_data = {
       <TabelDanGrafik client:load />
     </div>
     <div class="container h-full rounded-xl bg-white">
-      <TabelRiwayatPengajuan rows={rows} client:load />
+      <TabelRiwayatPengajuan client:load />
       <!-- <TabelPercobaan client:load /> -->
     </div>
   </section>

@@ -14,6 +14,11 @@ import Typography from "@mui/material/Typography";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import "./info-publik.css";
+
+const rows = await fetch(
+  "https://zuhdiali.me/static-api-simitra/rekomendasi-kegiatan.json"
+).then((res) => res.json());
+
 const theme = createTheme({
   typography: {
     fontFamily: "Poppins",
@@ -206,7 +211,7 @@ const style = {
   p: 4,
 };
 
-export default function TabelRiwayatPengajuan(rows) {
+export default function TabelRiwayatPengajuan() {
   return (
     <>
       <div style={{ height: 600, width: "100%" }} className="rounded-xl p-3">
@@ -215,7 +220,7 @@ export default function TabelRiwayatPengajuan(rows) {
         </h1>
 
         <DataGrid
-          rows={rows.rows}
+          rows={rows}
           columns={columns}
           initialState={{
             pagination: {
