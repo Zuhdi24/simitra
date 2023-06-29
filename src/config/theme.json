@@ -19,9 +19,9 @@
 
   "fonts": {
     "font_family": {
-      "primary": "Lato:wght@400;500;600;700",
+      "primary": "Poppins:wght@400",
       "primary_type": "sans-serif",
-      "secondary": "Poppins:wght@700;900",
+      "secondary": "Poppins:wght@800",
       "secondary_type": "sans-serif"
     },
     "font_size": {
