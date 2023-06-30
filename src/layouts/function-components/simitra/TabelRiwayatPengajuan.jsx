@@ -164,6 +164,7 @@ const columns = [
               width: "max-content",
               minWidth: "unset",
               fontSize: "1.5rem",
+              color: "#7d4f50",
             }}
           >
             {/* <i className="fa-solid fa-circle-info"></i> */}
@@ -183,9 +184,13 @@ export default function TabelRiwayatPengajuan() {
   return (
     <>
       <div style={{ height: 600, width: "100%" }} className="rounded-xl p-3">
-        <h1 className="h5 my-5 text-center">
+        <Typography
+          variant="h5"
+          className="text-center"
+          sx={{ color: "#7D4F50", fontFamily: "Poppins", marginBottom: "10px" }}
+        >
           Rekap Data Pengajuan Rekomendasi Pelatihan
-        </h1>
+        </Typography>
 
         <DataGrid
           rows={rows}
@@ -195,7 +200,7 @@ export default function TabelRiwayatPengajuan() {
               paginationModel: { page: 0, pageSize: 10 },
             },
           }}
-          pageSizeOptions={[5, 10, 20]}
+          pageSizeOptions={[10, 20]}
           getCellClassName={(params) => {
             if (params.field === "status") {
               if (params.value == null) {
@@ -245,7 +250,7 @@ export default function TabelRiwayatPengajuan() {
               padding: "5px 15px",
             },
             "& .menunggu": {
-              padding: "5px 10px",
+              fontSize: "12px",
             },
             "& .menunggu .MuiDataGrid-cellContent": {
               // color: "black",
@@ -258,6 +263,8 @@ export default function TabelRiwayatPengajuan() {
               // height: "100%",
               display: "flex",
               alignItems: "center",
+              fontSize: "12px",
+              padding: "0px 10px",
             },
             "& .belum .MuiDataGrid-cellContent": {
               color: "white",
@@ -268,6 +275,7 @@ export default function TabelRiwayatPengajuan() {
               borderRadius: "10px",
               display: "flex",
               alignItems: "center",
+              fontSize: "12px",
             },
             "& .revisi .MuiDataGrid-cellContent": {
               color: "white",
@@ -289,6 +297,7 @@ export default function TabelRiwayatPengajuan() {
               borderRadius: "10px",
               display: "flex",
               alignItems: "center",
+              fontSize: "12px",
             },
             "& .evaluasi .MuiDataGrid-cellContent": {
               backgroundColor: "orange",
@@ -301,17 +310,10 @@ export default function TabelRiwayatPengajuan() {
               padding: "0px 10px",
             },
           }}
+          disableRowSelectionOnClick
         />
 
-        <Box
-          sx={{
-            "& .MuiTypography-root": { color: "#7d4f50" },
-            "& .MuiButtonBase-root": { backgroundColor: "#7d4f50" },
-            "& .MuiButtonBase-root:hover": { backgroundColor: "#aa998f" },
-          }}
-          id="modal_utama"
-          className="  hidden "
-        >
+        <div id="modal_utama" className="  hidden ">
           <Box
             sx={{
               position: "fixed", //aslinya posisinya absolute
@@ -325,7 +327,11 @@ export default function TabelRiwayatPengajuan() {
               bgcolor: "background.paper",
               border: "2px solid #7d4f50",
               boxShadow: 24,
+
               p: 4,
+              "& .MuiTypography-root": { color: "#7d4f50" },
+              "& .MuiButtonBase-root": { backgroundColor: "#7d4f50" },
+              "& .MuiButtonBase-root:hover": { backgroundColor: "#aa998f" },
             }}
             id="konten_modal_utama"
           >
@@ -335,8 +341,7 @@ export default function TabelRiwayatPengajuan() {
                   <Typography
                     id="title_utama"
                     variant="h4"
-                    className="sticky top-0"
-                    sx={{ marginBottom: "20px" }}
+                    sx={{ marginBottom: "20px", fontFamily: "Poppins" }}
                   >
                     Rincian Pelatihan
                   </Typography>
@@ -367,7 +372,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_asal_pemohon"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Asal Pemohon
                 </Typography>
@@ -375,6 +380,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_asal_pemohon"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -383,7 +389,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_nama_pelatihan"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Nama Pelatihan
                 </Typography>
@@ -391,6 +397,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_nama_pelatihan"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -399,7 +406,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_jenis_pelatihan"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Jenis Pelatihan
                 </Typography>
@@ -407,6 +414,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_jenis_pelatihan"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -415,7 +423,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_metode_pembelajaran"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Metode Pembelajaran
                 </Typography>
@@ -423,6 +431,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_metode_pembelajaran"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -431,7 +440,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_anggaran"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Anggaran
                 </Typography>
@@ -439,6 +448,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_anggaran"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -447,7 +457,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_target_peserta"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Target Peserta
                 </Typography>
@@ -455,6 +465,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_target_peserta"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -463,7 +474,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_tanggal_pelaksanaan"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Tanggal Pelaksanaan
                 </Typography>
@@ -471,6 +482,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_tanggal_pelaksanaan"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -480,7 +492,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_jumlah_hari"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   {" "}
                   Jumlah Hari
@@ -489,6 +501,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_jumlah_hari"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -497,7 +510,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_sumber_anggaran"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Sumber Anggaran
                 </Typography>
@@ -505,6 +518,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_sumber_anggaran"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -513,7 +527,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_peserta"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Peserta
                 </Typography>
@@ -521,6 +535,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_peserta"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -529,7 +544,7 @@ export default function TabelRiwayatPengajuan() {
                 <Typography
                   id="title_tempat_pelaksanaan"
                   variant="body2"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{ fontWeight: "bold", fontFamily: "Poppins" }}
                 >
                   Tempat Pelaksanaan
                 </Typography>
@@ -537,6 +552,7 @@ export default function TabelRiwayatPengajuan() {
                   id="value_tempat_pelaksanaan"
                   variant="body2"
                   className="rounded-lg border-2 px-5 py-2"
+                  sx={{ fontFamily: "Poppins" }}
                 >
                   Tidak ada informasi
                 </Typography>
@@ -553,6 +569,7 @@ export default function TabelRiwayatPengajuan() {
                     disableElevation
                     id="btn_surat_pengantar"
                     href="https://www.google.com"
+                    sx={{ fontFamily: "Poppins" }}
                   >
                     Surat Pengantar
                   </Button>
@@ -561,6 +578,7 @@ export default function TabelRiwayatPengajuan() {
                     startIcon={<DescriptionIcon />}
                     id="btn_proposal"
                     href="https://www.google.com"
+                    sx={{ fontFamily: "Poppins" }}
                   >
                     Proposal
                   </Button>
@@ -570,6 +588,7 @@ export default function TabelRiwayatPengajuan() {
                     id="btn_rekomendasi"
                     className="visibi-hidden"
                     href="https://www.google.com"
+                    sx={{ fontFamily: "Poppins" }}
                   >
                     Rekomendasi
                   </Button>
@@ -580,6 +599,7 @@ export default function TabelRiwayatPengajuan() {
                     id="btn_laporan"
                     className="visibi-hidden"
                     href="https://www.google.com"
+                    sx={{ fontFamily: "Poppins" }}
                   >
                     Laporan
                   </Button>
@@ -587,7 +607,7 @@ export default function TabelRiwayatPengajuan() {
               </Grid>
             </Grid>
           </Box>
-        </Box>
+        </div>
       </div>
     </>
   );

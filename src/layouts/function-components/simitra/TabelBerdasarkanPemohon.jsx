@@ -139,7 +139,7 @@ export default function TabelBerdasarkanPemohon() {
             paginationModel: { page: 0, pageSize: 10 },
           },
         }}
-        pageSizeOptions={[5, 10, 20]}
+        pageSizeOptions={[ 10, 20]}
         sx={{
           fontFamily: "Poppins",
           height: "80%",
@@ -157,6 +157,7 @@ export default function TabelBerdasarkanPemohon() {
             maxHeight: "250px !important",
           },
         }}
+        disableRowSelectionOnClick
       />
     </div>
   );

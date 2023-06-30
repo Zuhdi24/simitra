@@ -89,15 +89,23 @@ export default function TabelDanGrafik() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <h1 className="h5 mb-5 text-center">
+        <Typography
+          variant="h5"
+          className="text-center"
+          sx={{ color: "#7D4F50", fontFamily: "Poppins", marginBottom: "10px" }}
+        >
           Statistik Pengajuan Rekomendasi Berdasarkan Jenis Pelatihan
-        </h1>
+        </Typography>
         <DiagramBatang />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <h1 className="h5 mb-5 text-center">
+        <Typography
+          variant="h5"
+          className="text-center"
+          sx={{ color: "#7D4F50", fontFamily: "Poppins", marginBottom: "10px" }}
+        >
           Jumlah Pengajuan Rekomendasi Berdasarkan Pemohon
-        </h1>
+        </Typography>
         <div className="container p-1">
           <TabelBerdasarkanPemohon />
         </div>
