@@ -6,7 +6,7 @@ const HomapageFeature = ({ feature_list }) => {
     <div className="key-feature-grid mt-10 grid grid-cols-2 gap-7 md:grid-cols-3 xl:grid-cols-4">
       {
         feature_list.map((item, i) => {
-          const FeatherIcon = Icon[humanize(item.icon)];
+          // const FeatherIcon = Icon[humanize(item.icon)];
           const warnatext = { color: "#7D4F50", textAlign: 'center' };
 
           // Menambahkan kondisi untuk membuat item grid ke-5, ke-6, dan ke-7 menjadi horizontal
@@ -23,7 +23,7 @@ const HomapageFeature = ({ feature_list }) => {
             >
               <div style={{ position: 'relative', width: '100%', height: '100px' }}>
                 <div className="container">
-                  <div style={{ position: 'absolute', top: '-50%', left: '50%', transform: 'translate(-50%,-50%)', width: '50px', height: '50px', border: '0.5px solid black', backgroundColor: 'white', borderRadius: '50%', zIndex: '1', opacity: '1' }}>
+                  <div style={{ position: 'absolute', top: '-50%', left: '50%', transform: 'translate(-50%,-50%)', width: '50px', height: '50px', border: '0.5px solid #aa998f', backgroundColor: 'white', borderRadius: '50%', zIndex: '1', opacity: '1' }}>
                     <p style={{ textAlign: 'center', fontSize: '20px', color: '#7D4F50', opacity: '1', fontWeight: 'bold' }}>
                       {item.angka}
                     </p>
@@ -37,7 +37,7 @@ const HomapageFeature = ({ feature_list }) => {
                 <p style={warnatext}>{item.content}</p>
               </div>
               <span className="icon mt-4">
-                <FeatherIcon />
+                {/* <FeatherIcon /> */}
               </span>
             </div>
           );

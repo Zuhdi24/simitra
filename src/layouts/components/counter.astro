@@ -13,38 +13,58 @@ const { counter } = Astro.props;
         opacity: 1;
         transform: translateY(0);
     }
+
+    .no-wrap {
+        white-space: nowrap;
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .no-wrap {
+            font-size: 20px;
+            white-space: normal;
+        }
+    }
 </style>
 
-<div class="animated-element">
-    <div class="counter mt-16" style="padding-bottom:100px;">
+<div class="container">
+    <div class="animated-element">
         <div
-            class="row mx-0 rounded-[20px] px-10 shadow-lg lg:py-10"
-            style="background: #ffffff; padding: 75px 75px;"
+            class="counter mt-16"
+            style="padding-bottom:100px; padding-left: 15px; padding-right:15px;"
         >
-            {
-                counter.map((item: any) => (
-                    <div class="border-border sm:col-6 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
-                        <h2>
-                            <span
-                                class="count"
-                                aria-valuenow={item.number}
-                                style="color: #CC8B86; "
+            <div
+                class="row mx-0 rounded-[20px] px-10 shadow-lg lg:py-10"
+                style="background: #ffffff; padding: 75px 75px;"
+            >
+                {
+                    counter.map((item: any) => (
+                        <div class="border-border sm:col-6 lg:col-3 px-10 py-10 text-center lg:border-r lg:py-0 last:lg:border-none">
+                            <h1>
+                                <span
+                                    class="count"
+                                    aria-valuenow={item.number}
+                                    style="color: #CC8B86; font-size:49px;"
+                                >
+                                    0
+                                </span>
+                                <h2
+                                    class={"text-primary"}
+                                    style={{
+                                        color: item.color,
+                                    }}
+                                />
+                            </h1>
+                            <p
+                                class="no-wrap"
+                                style="color: #7D4F50; font-size:20px;"
                             >
-                                0
-                            </span>
-                            <h2
-                                class={"text-primary"}
-                                style={{
-                                    color: item.color,
-                                }}
-                            />
-                        </h2>
-                        <p style="color: #CC8B86; font-size:20px">
-                            {item.name}
-                        </p>
-                    </div>
-                ))
-            }
+                                {item.name}
+                            </p>
+                        </div>
+                    ))
+                }
+            </div>
         </div>
     </div>
 </div>
