@@ -2,7 +2,7 @@
 banner:
   title: "Pelayanan Kerjasama Pengembangan Kompentensi"
   content: "SIMITRA adalah aplikasi berbasis website yang dibangun untuk mempermudah proses pengajuan rekomendasi penyelenggaraan pelatihan pola kerjasama oleh Pemkab/Pemkot, OPD Provinsi, dan PTN/PTS, serta menerbitkan surat rekomendasi oleh BPSDMD Provinsi Jawa Tengah, dengan menyediakan pelayanan yang mudah, cepat, dan terintegrasi."
-  image: /images/wb2.png
+  image: /images/wayang_beranda.png
   button:
     label: Download The Theme
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
