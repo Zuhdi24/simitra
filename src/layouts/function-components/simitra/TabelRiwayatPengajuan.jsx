@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import CloseIcon from "@mui/icons-material/Close";
 import InfoIcon from "@mui/icons-material/Info";
 import DescriptionIcon from "@mui/icons-material/Description";
+import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import "./info-publik.css";
@@ -167,7 +168,6 @@ const columns = [
               color: "#7d4f50",
             }}
           >
-            {/* <i className="fa-solid fa-circle-info"></i> */}
             <InfoIcon />
           </Button>
         </>
@@ -175,10 +175,6 @@ const columns = [
     },
   },
 ];
-
-// const style = {
-
-// };
 
 export default function TabelRiwayatPengajuan() {
   return (
@@ -251,6 +247,7 @@ export default function TabelRiwayatPengajuan() {
             },
             "& .menunggu": {
               fontSize: "12px",
+              padding: "2px 18px",
             },
             "& .menunggu .MuiDataGrid-cellContent": {
               // color: "black",
@@ -264,7 +261,7 @@ export default function TabelRiwayatPengajuan() {
               display: "flex",
               alignItems: "center",
               fontSize: "12px",
-              padding: "0px 10px",
+              width: "max-content",
             },
             "& .belum .MuiDataGrid-cellContent": {
               color: "white",
@@ -276,6 +273,7 @@ export default function TabelRiwayatPengajuan() {
               display: "flex",
               alignItems: "center",
               fontSize: "12px",
+              marginX: "10px",
             },
             "& .revisi .MuiDataGrid-cellContent": {
               color: "white",
@@ -298,6 +296,7 @@ export default function TabelRiwayatPengajuan() {
               display: "flex",
               alignItems: "center",
               fontSize: "12px",
+              marginX: "10px",
             },
             "& .evaluasi .MuiDataGrid-cellContent": {
               backgroundColor: "orange",
@@ -345,13 +344,13 @@ export default function TabelRiwayatPengajuan() {
                   >
                     Rincian Pelatihan
                   </Typography>
-                  <Button
+                  {/* <button
+                    aria-label="delete"
                     onClick={() => {
                       document
                         .getElementById("modal_utama")
                         .classList.add("hidden");
                     }}
-                    title="Rincian"
                     sx={{
                       padding: "2px",
                       width: "max-content",
@@ -363,7 +362,27 @@ export default function TabelRiwayatPengajuan() {
                       right: 5,
                     }}
                   >
-                    <CloseIcon />
+                    tes
+                  </button> */}
+                  <Button
+                    onClick={() => {
+                      document
+                        .getElementById("modal_utama")
+                        .classList.add("hidden");
+                    }}
+                    title="Tutup"
+                    sx={{
+                      padding: "0",
+                      // maxWidth: "25px",
+                      // height: "20px",
+                      fontSize: "1rem",
+                      color: "white",
+                      position: "absolute",
+                      top: 5,
+                      right: 5,
+                    }}
+                  >
+                    X
                   </Button>
                 </div>
               </Grid>
@@ -565,7 +584,7 @@ export default function TabelRiwayatPengajuan() {
                 >
                   <Button
                     variant="contained"
-                    startIcon={<DescriptionIcon />}
+                    // startIcon={<DescriptionIcon />}
                     disableElevation
                     id="btn_surat_pengantar"
                     href="https://www.google.com"
@@ -575,7 +594,7 @@ export default function TabelRiwayatPengajuan() {
                   </Button>
                   <Button
                     variant="contained"
-                    startIcon={<DescriptionIcon />}
+                    // startIcon={<DescriptionIcon />}
                     id="btn_proposal"
                     href="https://www.google.com"
                     sx={{ fontFamily: "Poppins" }}
@@ -584,7 +603,7 @@ export default function TabelRiwayatPengajuan() {
                   </Button>
                   <Button
                     variant="contained"
-                    startIcon={<DescriptionIcon />}
+                    // startIcon={<DescriptionIcon />}
                     id="btn_rekomendasi"
                     className="visibi-hidden"
                     href="https://www.google.com"
@@ -595,7 +614,8 @@ export default function TabelRiwayatPengajuan() {
 
                   <Button
                     variant="contained"
-                    startIcon={<DescriptionIcon />}
+                    
+                    // startIcon={<DescriptionIcon />}
                     id="btn_laporan"
                     className="visibi-hidden"
                     href="https://www.google.com"

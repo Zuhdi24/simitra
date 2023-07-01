@@ -139,7 +139,7 @@ export default function TabelBerdasarkanPemohon() {
             paginationModel: { page: 0, pageSize: 10 },
           },
         }}
-        pageSizeOptions={[ 10, 20]}
+        // pageSizeOptions={[ 10, 20]}
         sx={{
           fontFamily: "Poppins",
           height: "80%",
