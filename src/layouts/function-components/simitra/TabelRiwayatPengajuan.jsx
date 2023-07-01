@@ -344,26 +344,7 @@ export default function TabelRiwayatPengajuan() {
                   >
                     Rincian Pelatihan
                   </Typography>
-                  {/* <button
-                    aria-label="delete"
-                    onClick={() => {
-                      document
-                        .getElementById("modal_utama")
-                        .classList.add("hidden");
-                    }}
-                    sx={{
-                      padding: "2px",
-                      width: "max-content",
-                      minWidth: "unset",
-                      fontSize: "1.5rem",
-                      color: "white",
-                      position: "absolute",
-                      top: 5,
-                      right: 5,
-                    }}
-                  >
-                    tes
-                  </button> */}
+                  
                   <Button
                     onClick={() => {
                       document
@@ -373,6 +354,7 @@ export default function TabelRiwayatPengajuan() {
                     title="Tutup"
                     sx={{
                       padding: "0",
+                      width: "max-content",
                       // maxWidth: "25px",
                       // height: "20px",
                       fontSize: "1rem",
@@ -380,9 +362,11 @@ export default function TabelRiwayatPengajuan() {
                       position: "absolute",
                       top: 5,
                       right: 5,
+                      // paddingY: "5px",  // ini kalau mau pakai icon
                     }}
                   >
                     X
+                    {/* <CloseIcon /> */}
                   </Button>
                 </div>
               </Grid>
@@ -584,7 +568,7 @@ export default function TabelRiwayatPengajuan() {
                 >
                   <Button
                     variant="contained"
-                    // startIcon={<DescriptionIcon />}
+                    // startIcon={<DescriptionIcon />} // ini kalau mau pakai icon
                     disableElevation
                     id="btn_surat_pengantar"
                     href="https://www.google.com"
@@ -594,7 +578,7 @@ export default function TabelRiwayatPengajuan() {
                   </Button>
                   <Button
                     variant="contained"
-                    // startIcon={<DescriptionIcon />}
+                    // startIcon={<DescriptionIcon />} // ini kalau mau pakai icon
                     id="btn_proposal"
                     href="https://www.google.com"
                     sx={{ fontFamily: "Poppins" }}
@@ -603,7 +587,7 @@ export default function TabelRiwayatPengajuan() {
                   </Button>
                   <Button
                     variant="contained"
-                    // startIcon={<DescriptionIcon />}
+                    // startIcon={<DescriptionIcon />} // ini kalau mau pakai icon
                     id="btn_rekomendasi"
                     className="visibi-hidden"
                     href="https://www.google.com"
@@ -615,7 +599,7 @@ export default function TabelRiwayatPengajuan() {
                   <Button
                     variant="contained"
                     
-                    // startIcon={<DescriptionIcon />}
+                    // startIcon={<DescriptionIcon />} // ini kalau mau pakai icon
                     id="btn_laporan"
                     className="visibi-hidden"
                     href="https://www.google.com"
