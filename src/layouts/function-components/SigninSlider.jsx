@@ -23,10 +23,10 @@ const SigninSlider = ({ title }) => {
         /> */}
         <div className="auth-banner-carousel">
           <img
-            width="567"
+            width="367"
             // height="557"
             className="mx-auto"
-            src="/images/@simitra/login.svg"
+            src="/images/@simitra/log in.png"
             alt=""
           />
           {/* <Swiper

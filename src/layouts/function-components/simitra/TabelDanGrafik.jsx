@@ -89,6 +89,7 @@ export default function TabelDanGrafik() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
+        <div className="overflow-x-scroll">
         <Typography
           variant="h5"
           className="text-center"
@@ -97,6 +98,7 @@ export default function TabelDanGrafik() {
           Statistik Pengajuan Rekomendasi Berdasarkan Jenis Pelatihan
         </Typography>
         <DiagramBatang />
+        </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <Typography
