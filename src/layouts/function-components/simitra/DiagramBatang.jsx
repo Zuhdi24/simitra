@@ -56,13 +56,21 @@ const BarChart = () => {
         },
       },
       maintainAspectRatio: false,
-      responsive: true,
+      responsive: false,
+      scales: {
+        xAxes: [
+          {
+            barThickness: 6, // number (pixels) or 'flex'
+            maxBarThickness: 8, // number (pixels)
+          },
+        ],
+      },
     });
   }, []);
 
   return (
     <>
-      <div className="relative m-auto h-[70vh] w-full rounded-lg border bg-white p-4 md:col-span-2 ">
+      <div className="relative m-auto h-[70vh] w-max overflow-x-scroll rounded-lg border bg-white p-4 md:col-span-2">
         <Bar data={chartData} options={chartOptions} />
       </div>
     </>
